@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/Badges.css";
-import avatarMe from '../images/avatar_me.jpg';
+
 
 
 class Badges extends React.Component {
@@ -13,15 +13,15 @@ class Badges extends React.Component {
         </div>
 
         <div className="Badge__section-name">
-        <img className="Badge__avatar" src={avatarMe} alt="Avatar" />
+        <img className="Badge__avatar" src={this.props.avatarMe} alt="Avatar" />
           <h1>
-            Patricia <br />
-            Valdebenito
+            {this.props.firstName} <br />{this.props.lastName}
+            
           </h1>
         </div>
         <div className="Badge__section-info">
-            <p>Front End Developer</p>
-            <div>@valdebenitopanes</div>
+            <p>{this.props.jobTitle}</p>
+    <   div>@{this.props.twitter}</div>
         </div>
         <div className="Badge__footer">
             #aprendiendodeporvida
