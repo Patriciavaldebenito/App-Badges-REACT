@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../src/global.css';
 import Badges from './component/Badges';
 
 const container = document.getElementById('app');

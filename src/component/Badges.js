@@ -1,25 +1,29 @@
 import React from "react";
-import backgroundHeader from '../images/background_0_home_badges.jpg';
+import "./styles/Badges.css";
 import avatarMe from '../images/avatar_me.jpg';
+
+
 class Badges extends React.Component {
   render() {
     return (
-      <div>
-        <div>
-          <img src={backgroundHeader} alt="Logo" />
+      <div className="Badge">
+        
+        <div className="Badge__header">
+         
         </div>
-        <div>
-        <img src={avatarMe} alt="Avatar" />
+
+        <div className="Badge__section-name">
+        <img className="Badge__avatar" src={avatarMe} alt="Avatar" />
           <h1>
             Patricia <br />
             Valdebenito
           </h1>
         </div>
-        <div>
+        <div className="Badge__section-info">
             <p>Front End Developer</p>
-            <p>@valdebenitopanes</p>
+            <div>@valdebenitopanes</div>
         </div>
-        <div>
+        <div className="Badge__footer">
             #aprendiendodeporvida
         </div>
       </div>
