@@ -1,7 +1,43 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Badges from './component/Badges';
+
+const container = document.getElementById('app');
+ReactDOM.render(<Badges/>,container);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 5
+/*
 const jsx = (
 <div>
     <h1>New App Badges</h1>
@@ -21,7 +57,7 @@ const element = React.createElement(
 );
 ReactDOM.render(element,constainer);
 
-
+*/
 
 // 4
 //const name = 'Patty valdebenito';
