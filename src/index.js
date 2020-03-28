@@ -1,18 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
+
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
 import '../src/global.css';
-import avatarMe from './images/avatar_me.jpg';
-import Badges from './component/Badges';
+//import avatarMe from './images/avatar_me.jpg';
+import BadgeNew from './pages/BadgeNew.js';
 
 
 const container = document.getElementById('app');
-ReactDOM.render(<Badges
-firstName="Patricia" 
-lastName="valdebenito"
-jovTtitle="Front End Developer"
-twitter="valdebenitopanes"
-avatarMe={avatarMe}/>
+ReactDOM.render(<BadgeNew/>
 ,container);
 
 
